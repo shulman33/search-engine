@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: edu.yu.cs.com1320.project.stage2.DocumentAPITest
--------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage2.DocumentAPITest
-edu.yu.cs.com1320.project.stage2.DocumentAPITest.interfaceCount  Time elapsed: 0.002 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at edu.yu.cs.com1320.project.stage2.DocumentAPITest.interfaceCount(DocumentAPITest.java:22)
-

@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: edu.yu.cs.com1320.project.stage4.impl.StackAPITest
--------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in edu.yu.cs.com1320.project.stage4.impl.StackAPITest
