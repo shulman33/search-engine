@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.128 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest
+edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCount  Time elapsed: 0.047 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: the original doc1 object should NOT have been returned - should be a different object in memory now ==> expected: <true> but was: <false>
+	at edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.pushAboveMaxViaPutNew(DocumentStoreImplTest.java:199)
+	at edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCount(DocumentStoreImplTest.java:178)
+
+edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountBringBackInViaDeleteAndSearch  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: doc1 should NOT be in memory ==> expected: <null> but was: <edu.yu.cs.com1320.project.stage5.impl.DocumentImpl@0>
+	at edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.deleteDocInMemoryBringInDocFromDisk(DocumentStoreImplTest.java:241)
+	at edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountBringBackInViaDeleteAndSearch(DocumentStoreImplTest.java:219)
+
+edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountViaUndoDelete  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: doc1 should've been written out to disk, but was not: contents were null ==> expected: not <null>
+	at edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.checkContents(DocumentStoreImplTest.java:165)
+	at edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.overLimitViaUndo(DocumentStoreImplTest.java:288)
+	at edu.yu.cs.com1320.project.stage5.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountViaUndoDelete(DocumentStoreImplTest.java:269)
+

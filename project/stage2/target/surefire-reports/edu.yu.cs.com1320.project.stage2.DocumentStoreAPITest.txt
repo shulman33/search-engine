@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.cs.com1320.project.stage2.DocumentStoreAPITest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in edu.yu.cs.com1320.project.stage2.DocumentStoreAPITest
+edu.yu.cs.com1320.project.stage2.DocumentStoreAPITest.interfaceCount  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreAPITest.interfaceCount(DocumentStoreAPITest.java:22)
+
+edu.yu.cs.com1320.project.stage2.DocumentStoreAPITest.methodCount  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at edu.yu.cs.com1320.project.stage2.DocumentStoreAPITest.methodCount(DocumentStoreAPITest.java:34)
+
